@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="elasticsearch.net" Version="7.10.1" />
+    <PackageReference Include="json.net" Version="1.0.23" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="3.1.10" />
+    <PackageReference Include="nest" Version="7.10.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.2" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.RabbitMQ" Version="3.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+  </ItemGroup>
+
+</Project>
